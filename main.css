@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+.post {
+    background-color: white;
+}
+.post {
+    height: 600px;
+    width: 30%;
+    margin: 50px auto;
+}
+.post_header{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-between;
+}
+.fotoicono{
+    height: 40px;
+    width: 40px;
+}
+.fotoicono,
+.nombre{
+    display: inline-block;
+}
+.icono1{
+    margin-left: auto;
+}
+.fa-lg {
+    font-size: 30px !important;
+}
+.foto{
+    max-width: 100%;
+    height: auto;
+
+}
+.footer{
+   padding: 3%;
+}
+.icons{
+    display: flex;
+    justify-content: space-between; /* Alinea los iconos a los lados opuestos */
+    align-items: center;
+    padding: 2% 5px;
+}
+#bookmark{
+    margin-left: 65%;
+}
